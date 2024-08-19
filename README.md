@@ -145,6 +145,7 @@ To set up and run this project on your local machine, ensure you have the follow
 - **Digit Recognition Model**: A CNN model trained on the MNIST dataset or a custom dataset.
 - **Math Symbols Recognition Model**: A CNN model trained on the CROHME dataset for recognizing mathematical symbols.
 
+## Sample Demo
 ![## Sample Demo](./Sample_Images/sample_img.jpg)
 
 ## Non-Commercial Use

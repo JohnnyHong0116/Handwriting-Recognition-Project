@@ -60,7 +60,7 @@ The main purpose of this project is to create an intuitive and efficient way to 
     ```bash
     python main.py
     ```
-
+    
 ## Usage
 
 - **Custom Dataset Collection**: Use the custom dataset collection script to gather samples for training.
@@ -88,6 +88,8 @@ The main purpose of this project is to create an intuitive and efficient way to 
 - **Letter Recognition Model**: A CNN model trained on custom letter datasets.
 - **Digit Recognition Model**: A CNN model trained on the MNIST dataset or a custom dataset.
 - **Math Symbols Recognition Model**: A CNN model trained on the CROHME dataset for recognizing mathematical symbols.
+
+![## Sample Demo](./Sample_Image/sample img.png)
 
 ## Non-Commercial Use
 

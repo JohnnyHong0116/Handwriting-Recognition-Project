@@ -1,6 +1,3 @@
-# Handwriting-Recognition-Project
-Real-time handwriting recognition using a webcam and Google MediaPipe for hand tracking. Recognizes letters, digits, and mathematical symbols drawn in the air. Features include custom dataset collection, gesture-based interaction, and automatic saving to Word. Ideal for educational and research purposes, non-commercial use.
-
 # Handwriting Recognition Project
 
 This project is designed to recognize and process handwritten input, including letters, digits, and mathematical symbols, using deep learning techniques. It integrates hand tracking and gesture control to allow users to write naturally on a virtual canvas, which is then processed in real-time by CNN models to recognize the content.

@@ -35,9 +35,64 @@ The main purpose of this project is to create an intuitive and efficient way to 
 
 ### Prerequisites
 
-- Python 3.6 or higher
-- NVIDIA CUDA
-- A working webcam
+To set up and run this project on your local machine, ensure you have the following prerequisites:
+
+1. **Python 3.7 or later**
+   - Install Python from the [official website](https://www.python.org/downloads/).
+
+2. **Git**
+   - Install Git for version control from the [official website](https://git-scm.com/downloads).
+
+3. **pip (Python Package Installer)**
+   - This is usually included with Python. You can check if you have it installed by running `pip --version` in your terminal.
+
+4. **NVIDIA GPU with CUDA Support (Optional but recommended)**
+   - If you have an NVIDIA GPU, you can leverage CUDA for faster processing.
+   - Install the NVIDIA CUDA Toolkit from the [official website](https://developer.nvidia.com/cuda-downloads).
+   - Install the appropriate version of cuDNN from the [NVIDIA Developer website](https://developer.nvidia.com/cudnn).
+   - Verify your CUDA installation by running `nvcc --version` in your terminal.
+
+5. **PyTorch with CUDA Support**
+   - When installing PyTorch, ensure you install the version that supports CUDA:
+     ```bash
+     pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
+     ```
+   - Replace `cu117` with the correct CUDA version you have installed.
+
+6. **Virtual Environment (Optional but recommended)**
+   - Create a virtual environment to manage your project dependencies separately:
+     ```bash
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Windows: `venv\Scripts\activate`
+     - On macOS/Linux: `source venv/bin/activate`
+
+7. **Required Python Packages**
+   - Install all necessary Python packages using the `requirements.txt` file provided in the repository:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+8. **Webcam**
+   - A functioning webcam is required for real-time hand tracking.
+
+9. **Google MediaPipe**
+   - Ensure MediaPipe is installed, which is used for hand tracking:
+     ```bash
+     pip install mediapipe
+     ```
+
+10. **Text Editor or IDE**
+    - Use any text editor or IDE for Python development, such as VSCode, PyCharm, or Sublime Text.
+
+11. **GitHub Account**
+    - A GitHub account is necessary if you plan to contribute to the project or maintain your forked version.
+
+### Additional Prerequisites
+
+- **Microsoft Visual C++ Build Tools (Windows)**
+  - If you encounter issues with building some Python packages on Windows, install the [Microsoft Visual C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
 
 ### Installation Steps
 

@@ -89,7 +89,7 @@ The main purpose of this project is to create an intuitive and efficient way to 
 - **Digit Recognition Model**: A CNN model trained on the MNIST dataset or a custom dataset.
 - **Math Symbols Recognition Model**: A CNN model trained on the CROHME dataset for recognizing mathematical symbols.
 
-![## Sample Demo](./Sample_Images/sample_img.png)
+![## Sample Demo](./Sample_Images/sample_img.jpg)
 
 ## Non-Commercial Use
 

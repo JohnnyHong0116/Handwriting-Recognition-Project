@@ -53,7 +53,7 @@ To set up and run this project on your local machine, ensure you have the follow
    - Verify your CUDA installation by running `nvcc --version` in your terminal.
 
 5. **PyTorch with CUDA Support**
-   - When installing PyTorch, ensure you install the version that supports CUDA:
+   - When installing [PyTorch](https://pytorch.org/), ensure you install the version that supports CUDA:
      ```bash
      pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu117
      ```

@@ -26,7 +26,8 @@ The main purpose of this project is to create an intuitive and efficient way to 
 ## Datasets Used
 
 - **Custom Letter Dataset**: A custom dataset created for recognizing English letters (A-Z). Each letter is stored in a separate folder within the dataset.
-- **CROHME Math Symbols Dataset**: A dataset used for training the model to recognize mathematical symbols. This dataset can be accessed from [CROHME](http://www.isical.ac.in/~crohme/).
+- **Custom Digit Dataset**: A custom dataset created for recognizing digits (0-9). Each letter is stored in a separate folder within the dataset.
+- **CROHME Math Symbols Dataset**: A dataset used for training the model to recognize mathematical symbols. This dataset can be accessed from [CROHME(Kaggle source)](https://www.kaggle.com/datasets/xainano/handwrittenmathsymbols).
   
   **Note**: This project utilizes these datasets for educational and research purposes. The datasets are not included in this repository due to licensing restrictions. Please refer to the official sources to obtain them.
 
@@ -35,7 +36,7 @@ The main purpose of this project is to create an intuitive and efficient way to 
 ### Prerequisites
 
 - Python 3.6 or higher
-- Git (for version control)
+- NVIDIA CUDA
 - A working webcam
 
 ### Installation Steps
@@ -52,7 +53,7 @@ The main purpose of this project is to create an intuitive and efficient way to 
     ```
 
 3. **Prepare Datasets**:
-    - Ensure that the required datasets (`custom_letter_dataset`, `Math Symbols Dataset`) are properly placed in the respective directories.
+    - Ensure that the required datasets (`custom_letter_dataset`, `Math Dataset`) are properly placed in the respective directories.
     - You can also train your models using the provided scripts (e.g., `letter_recognition.py`, `CROHME_Math_recognition.py`).
 
 4. **Run the Application**:

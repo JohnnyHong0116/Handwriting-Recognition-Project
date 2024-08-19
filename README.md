@@ -127,6 +127,7 @@ To set up and run this project on your local machine, ensure you have the follow
 - **main.py**: Entry point for running the real-time handwriting recognition application.
 - **letter_recognition.py**: Script for training a CNN model to recognize letters.
 - **CROHME_Math_recognition.py**: Script for training a CNN model to recognize mathematical symbols.
+- **custom_train_recognition.py**: Script for training a CNN model to recognize digits.
 - **boundingbox_utils.py**: Utility functions for processing and saving bounding boxes during recognition.
 - **Hand_Tracking.py**: Contains functions for gesture control and real-time recognition processing.
 - **calibration.py**: Functions related to hand tracking calibration.
